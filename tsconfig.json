@@ -1,0 +1,43 @@
+{
+  "compilerOptions": {
+    "target": "ES2022",
+    "lib": [
+      "ES2022",
+      "DOM",
+      "DOM.Iterable"
+    ],
+    "module": "ESNext",
+    "moduleResolution": "Bundler",
+    "jsx": "react-jsx",
+    "strict": true,
+    "isolatedModules": true,
+    "verbatimModuleSyntax": true,
+    "resolveJsonModule": true,
+    "skipLibCheck": true,
+    "noEmit": true,
+    "types": [
+      "vite/client"
+    ],
+    "paths": {
+      "utils/*": [
+        "./src/utils/*"
+      ],
+      "components/*": [
+        "./src/components/*"
+      ],
+      "fonts/*": [
+        "./src/fonts/*"
+      ],
+      "pages/*": [
+        "./src/pages/*"
+      ],
+      "store/*": [
+        "./src/store/*"
+      ]
+    }
+  },
+  "include": [
+    "src",
+    "projects"
+  ]
+}

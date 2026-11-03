@@ -1,0 +1,35 @@
+city,country,lat,lng,hideLabel
+Alviso,USA,37.426051,-121.975237,true
+Athens,Greece,37.984149,23.727984,
+Auckland,New Zealand,-36.853466,174.765551,
+Austin,USA,30.133,-97.641,
+Barcelona,Spain,41.382894,2.177432,
+Basel,Switzerland,47.558108,7.587826,
+Cambridge,USA,42.3751,-71.105616,true
+Cupertino,USA,37.323011,-122.032252,true
+East Alton,USA,38.880326,-90.111218,
+Ekaterinburg,Russia,56.839104,60.60825,
+Forestville,Australia,-33.762089,151.215089,true
+Foster City,USA,37.560034,-122.268852,true
+Gothenburg,Sweden,57.707233,11.967017,
+London,UK,51.507322,-0.127647,
+Los Angeles, USA,34.054935,-118.244476,
+Manchester,UK,53.47913,-2.244101,
+Melbourne,Australia,-37.814218,144.963161,
+Moscow,Russia,55.750718,37.617661,
+Mountain View,USA,37.389389,-122.08321,true
+New York,USA,40.730646,-73.986614,
+Oxley,Australia,-27.556462,152.974367,
+Palo Alto,USA,37.445586,-122.161929,true
+Panama,Panama,8.309607,-81.306625,
+Paris,France,48.85661,2.351499,
+San Francisco,USA,37.779281,-122.419236,
+San Jose,USA,37.279,-121.867,true
+Schmitten,Germany,50.269478,8.444023,true
+Stockholm,Sweden,59.325117,18.071094,
+Sydney,Australia,-33.854816,151.216454,
+Tel Aviv,Israel,32.080481,34.780527,
+Tokyo,Japan,34.696864,139.404903,
+Toronto,Canada,43.653963,-79.387207,
+Torun,Poland,53.021067,18.618612,
+Zurich,Switzerland,47.372396,8.542322,

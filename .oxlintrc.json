@@ -1,0 +1,12 @@
+{
+  "$schema": "./node_modules/oxlint/configuration_schema.json",
+  "plugins": ["eslint", "react", "jsx-a11y", "import"],
+  "env": { "browser": true, "node": true, "es6": true },
+  "rules": {
+    "no-undef": "error",
+    "no-unused-vars": "warn",
+    "jsx-a11y/click-events-have-key-events": "off",
+    "jsx-a11y/no-static-element-interactions": "off",
+    "import/namespace": "off"
+  }
+}

@@ -1,0 +1,56 @@
+{
+  "name": "rokotyan-website",
+  "version": "0.0.1",
+  "description": "Nikita Rokotyan — Research Tools & Visualization",
+  "module": "src",
+  "scripts": {
+    "build": "vite build",
+    "build:dev": "vite build --outDir dist-dev",
+    "dev": "vite --port 5001 --strictPort",
+    "dserv": "vite --port 5001 --strictPort --host 0.0.0.0",
+    "lint": "oxlint src projects",
+    "lint:fix": "oxlint --fix src projects",
+    "start": "node prod_server.js",
+    "preview": "vite preview --port 5001 --strictPort",
+    "typecheck": "tsc --noEmit"
+  },
+  "dependencies": {
+    "@emotion/css": "^11.13.5",
+    "can-autoplay": "^3.0.2",
+    "core-js": "^3.51.0",
+    "d3-array": "^3.2.4",
+    "express": "^5.3.0",
+    "interweave": "^13.1.1",
+    "papaparse": "^5.5.3",
+    "plyr": "^3.8.5",
+    "react": "^19.3.1",
+    "react-copy-to-clipboard": "^5.1.1",
+    "react-dom": "^19.3.1",
+    "react-lazy-load-image-component": "^1.6.3",
+    "react-localization": "^2.1.0",
+    "react-router-dom": "^7.18.5",
+    "regenerator-runtime": "^0.14.1",
+    "three": "^0.187.0",
+    "topojson-client": "^3.1.0"
+  },
+  "devDependencies": {
+    "@types/d3-array": "^3.2.2",
+    "@types/geojson": "^7946.0.16",
+    "@types/papaparse": "^5.5.2",
+    "@types/react": "^19.3.0",
+    "@types/react-copy-to-clipboard": "^5.0.7",
+    "@types/react-dom": "^19.3.0",
+    "@types/react-lazy-load-image-component": "^1.6.5",
+    "@types/three": "^0.187.0",
+    "@types/topojson-client": "^3.1.5",
+    "@types/topojson-specification": "^1.0.5",
+    "@vitejs/plugin-react": "^6.1.2",
+    "oxlint": "^1.90.0",
+    "typescript": "^7.0.2",
+    "vite": "^8.3.5"
+  },
+  "packageManager": "npm@11.19.1",
+  "engines": {
+    "node": ">=24.11.0 <25"
+  }
+}
