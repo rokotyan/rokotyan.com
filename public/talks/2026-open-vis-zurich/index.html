@@ -1,0 +1,16 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Zurich talk slides moved</title>
+  </head>
+  <body>
+    <p>The slides have moved. <a id="slides" href="https://talks.rokotyan.com/2026-open-vis-zurich/">Open the Zurich talk slides</a>.</p>
+    <script>
+      const slides = document.getElementById('slides')
+      slides.href += location.search + location.hash
+      location.replace(slides.href)
+    </script>
+  </body>
+</html>

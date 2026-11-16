@@ -11,7 +11,7 @@ export const talks: Talk[] = [
     year: 2026,
     title: 'Better graph visualizations with cosmos.gl',
     venue: 'Open Visualization Summit, Zurich',
-    links: [{ label: 'Slides', url: 'https://rokotyan.com/talks/2026-open-vis-zurich/#1' }],
+    links: [{ label: 'Slides', url: 'https://talks.rokotyan.com/2026-open-vis-zurich' }],
   },
   {
     year: 2026,
