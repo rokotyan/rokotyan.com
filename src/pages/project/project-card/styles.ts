@@ -8,6 +8,11 @@ export const projectCard = css`
   overflow: hidden;
 `
 
+export const projectImageLayer = css`
+  position: absolute;
+  inset: 0;
+`
+
 export const projectContent = css`
   label: projectContent;
   display: flex;

@@ -11,6 +11,7 @@ export default function ProjectCard({ project }: { project: Project }) {
         effect="opacity"
         src={project.mainPic}
         width="100%"
+        wrapperClassName={style.projectImageLayer}
         className={style.projectImg}
       />
       <div className={style.projectContent} style={project.collection ? { color: '#fff', background: 'linear-gradient(90deg, rgba(0,0,0,.65), rgba(0,0,0,.15))' } : project.heroStyle}>
